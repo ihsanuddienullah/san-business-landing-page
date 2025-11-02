@@ -1,5 +1,11 @@
+import { Navbar } from './components'
+
 function App() {
-  return <h1 className="text-2xl text-blue-500">Hello world</h1>
+  return (
+    <div>
+      <Navbar />
+    </div>
+  )
 }
 
 export default App

@@ -1,6 +1,12 @@
 {
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "printWidth": 120,
   "plugins": [
-    "@trivago/prettier-plugin-sort-imports"
+    "@trivago/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss",
+    "prettier-plugin-classnames"
   ],
   "importOrder": [
     "^react$",
@@ -11,8 +17,5 @@
     "\\.(css|scss|sass|less)$"
   ],
   "importOrderSeparation": false,
-  "importOrderSortSpecifiers": true,
-  "semi": false,
-  "singleQuote": true,
-  "trailingComma": "es5"
+  "importOrderSortSpecifiers": true
 }
